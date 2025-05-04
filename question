@@ -1,0 +1,126 @@
+Assignment 2 
+
+
+Q1. Linear Search. We need to check for duplicate inputs. If the
+duplicate element is allowed then a linear search algo needs to implement accordingly. An
+appropriate condition check needs to apply for element not found scenario.
+(a) Search Element ( iterative approach )
+(b) Search Element ( recursion approach )
+(c) Print Input array ( iterative approach )
+(d) Print Input array ( recursion approach )
+(e) Print Input array reverse order ( iterative approach )
+(f) Print Input array reverse order ( recursion approach )
+
+Q2. Binary Search. We need to check for duplicate element
+inputs, if found any should not insert into the input array. The array should manage in sorted order.
+Apply a duplicacy check on the element while inserting the element, if found duplicate then discards
+the input. The input element should insert in the array at the right position( index). Appropriate
+shifting can be applied in the array in order to insert the input element at the right position. An
+appropriate condition check needs to apply for element not found scenario.
+(a) Binary Search ( iterative approach)
+(b) Binary Search ( recursion approach )
+
+Q3. Find the Factor
+Determine the factors of a number (i.e., all positive integer values that evenly divide into a number) and then
+return the pth element of the list, sorted ascending. If there is no p
+th element, return 0.
+Example: n = 20 and p = 3
+The factors of 20 in ascending order are {1, 2, 4, 5, 10, 20}. Using 1-based indexing, if p = 3, then 4 is
+returned. If p > 6, 0 would be returned.
+Function Description
+Complete the function pthFactor in the editor below.
+pthFactor has the following parameter(s):
+int n: the integer whose factors are to be found
+int p: the index of the factor to be returned
+Returns:
+int: the long integer value of the pth integer factor of n or, if there is no factor at that index, then 0 is returned
+
+Q4. Count Duplicate Elements
+Given an integer array, numbers, count the number of elements that occur more than once.
+Example numbers = [1, 3, 3, 4, 4, 4]
+There are two non-unique elements: 3 and 4.
+Function Description:
+Complete the function countDuplicate in the editor below.
+countDuplicate has the following parameter(s):
+int numbers[n]: an array of integers
+Returns:
+int: an integer that denotes the number of non-unique values in the numbers array
+
+Assignment 3 (DS)
+
+Q1. Searching and Sorting Techniques.
+(a) Bubble Sort
+(b) Selection Sort
+(c) Insertion Sort
+
+Q2. single linked list.
+Implement below metioned functions. Apply all required condition
+check & validation like list empty or not, while inserting/deleting by
+position validate the position.
+a)insertAtEnd b) insertAtBeg c) insertAtPos d) displayList
+e)listNodeCount f) deleteFromEnd g) deleteFromBeg
+h)deleteFromPos i) deleteByElement j) reverseDisplay
+k)freeAllNode l) reverseList m)sortedList
+
+Q3.single linked list in sorted
+order. Implement below metioned functions. Apply all required
+condition check & validation like list empty or not, while
+inserting/deleting by position validate the position. Implement a policy
+for duplicate value input.
+a)insert b) displayList c)listNodeCount d) deleteFromEnd
+e) deleteFromBeg f)deleteFromPos g) reverseDisplay
+
+Q4. single linked list to store
+Student Information ( StudentName and StudentPRN).
+Implement below metioned functions. Apply all required condition
+check & validation like list empty or not, while inserting/deleting by
+position validate the position.
+a)insertAtEnd b) insertAtBeg c) insertAtPos d) displayList
+e)listNodeCount f) deleteFromEnd g) deleteFromBeg
+h)deleteFromPos i) deleteByElement j) reverseDisplay
+k)freeAllNode
+
+
+Assignment 4 (DS)
+
+Q1. Write a C/C++ program to implement below mentioned Searching
+and Sorting Techniques.
+(a) Merge Sort
+(b) Quick Sort
+(c) Heap Sort
+
+Q2. Write a C/C++ program to implement stack data structure using
+array. Implement below metioned functions.
+a) push b) pop c) peep d) displayStack e)isStackFull
+f) isStackEmpty
+Q3. Write a C/C++ program to implement queue data structure using
+array. Implement below metioned functions.
+a) add b) delete c) peep d) displayQueue e)isQueueFull
+f) isQueueEmpty
+Q4. Write a C/C++ program to implement circular queue data
+structure using array. Implement below metioned functions.
+a) add b) delete c) peep d) displayQueue e)isQueueFull
+f) isQueueEmpty
+
+
+Assignment 5 (DS)
+
+Q1. Write a C/C++ program to implement single circular linked list
+with below metioned functionality.
+a) insertAtEnd b) insertAtBeg c) insertAtPos
+d) display e) listNodeCount f) deleteFromEnd
+g) deleteFromBeg h) deleteFromPos
+Q2. Write a C/C++ program to implement doubly linked list with below
+metioned functions functionality.
+a) insertAtEnd b) insertAtBeg c) insertAtPos
+d) display e) listNodeCount f) deleteFromEnd
+g) deleteFromBeg h) deleteFromPos
+Q3. Write a C/C++ program to implement doubly circular linked list
+with below metioned functionality.
+a) insertAtEnd b) insertAtBeg c) insertAtPos
+d) display e) listNodeCount f) deleteFromEnd
+g) deleteFromBeg h) deleteFromPos
+Q4. Write a C/C++ program to implement priority queue data
+structure using array.
+Q5. Write a C/C++ program to implement dequeue(doubly endded
+queue) data structure using array.
